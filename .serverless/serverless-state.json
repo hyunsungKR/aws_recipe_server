@@ -219,7 +219,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/aws-recipe-flask-app/dev/1673398063418-2023-01-11T00:47:43.418Z/aws-recipe-flask-app.zip"
+                "S3Key": "serverless/aws-recipe-flask-app/dev/1673402656742-2023-01-11T02:04:16.742Z/aws-recipe-flask-app.zip"
               },
               "Handler": "s_api.handler",
               "Runtime": "python3.9",
@@ -237,14 +237,14 @@
               "ApiLogGroup"
             ]
           },
-          "ApiLambdaVersion5lCRU1SPbsnZCzTLL0RdATfmHnRpAqJYXB8XEki2js": {
+          "ApiLambdaVersionIKOwbSmvH5j6qCtx1VeEQDAp4MLAivi2JwPhKvfEfE": {
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
               "FunctionName": {
                 "Ref": "ApiLambdaFunction"
               },
-              "CodeSha256": "ROMlkYCR8gpBUZLlqorEE/yREo88hplIcQyNZR/9Zf8="
+              "CodeSha256": "+3PZRdVaNupxZ56IfzxnjN2q6KFlBsZ8zEFDDDdoRpE="
             }
           },
           "HttpApi": {
@@ -399,7 +399,7 @@
           "ApiLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
-              "Ref": "ApiLambdaVersion5lCRU1SPbsnZCzTLL0RdATfmHnRpAqJYXB8XEki2js"
+              "Ref": "ApiLambdaVersionIKOwbSmvH5j6qCtx1VeEQDAp4MLAivi2JwPhKvfEfE"
             },
             "Export": {
               "Name": "sls-aws-recipe-flask-app-dev-ApiLambdaFunctionQualifiedArn"
@@ -555,7 +555,7 @@
         "timeout": 6,
         "runtime": "python3.9",
         "vpc": {},
-        "versionLogicalId": "ApiLambdaVersion5lCRU1SPbsnZCzTLL0RdATfmHnRpAqJYXB8XEki2js"
+        "versionLogicalId": "ApiLambdaVersionIKOwbSmvH5j6qCtx1VeEQDAp4MLAivi2JwPhKvfEfE"
       }
     },
     "configValidationMode": "warn",
@@ -585,10 +585,10 @@
     "isDashboardAppPreconfigured": true,
     "orgUid": "49aecc6b-4e81-484c-ba93-760a26b95e3f",
     "appUid": "Z50tbfX3vF19WgQ52m",
-    "artifact": "C:\\Users\\5-5\\Documents\\Github\\aws-recipe-flask-app\\.serverless\\aws-recipe-flask-app.zip"
+    "artifact": "C:\\Users\\5-5\\Documents\\Github\\aws_recipe_server\\.serverless\\aws-recipe-flask-app.zip"
   },
   "package": {
-    "artifactDirectoryName": "serverless/aws-recipe-flask-app/dev/1673398063418-2023-01-11T00:47:43.418Z",
+    "artifactDirectoryName": "serverless/aws-recipe-flask-app/dev/1673402656742-2023-01-11T02:04:16.742Z",
     "artifact": "aws-recipe-flask-app.zip"
   }
 }
